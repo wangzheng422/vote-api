@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/go-toolset:1.14.12 as builder
+FROM nexus.ocp4.redhat.ren:8083/ubi8/go-toolset:1.14.12 as builder
 
 WORKDIR /build
 ADD . /build/
